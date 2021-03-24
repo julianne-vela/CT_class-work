@@ -11,10 +11,11 @@ below.
 
 Implement select array functions from scratch. **Only
 use**:
-* `array.length` (read)
-* `array.length = x` (assignment)
-* `array[i]` (read)
-* `array[i] = value` (assignment)
+
+-   `array.length` (read)
+-   `array.length = x` (assignment)
+-   `array[i]` (read)
+-   `array[i] = value` (assignment)
 
 **You must use TDD and good commits for this lab**
 
@@ -90,10 +91,11 @@ callback function).
 Returns the `true` if every item in the `Array` has returned `true`, otherwise `false`.
 
 ## Rubric **10pts**
-* Each test: *1pt* (x 5 = 5pts)
-* Each function: *1pt* (x 5 = 5pts)
 
-## Challange
+-   Each test: _1pt_ (x 5 = 5pts)
+-   Each function: _1pt_ (x 5 = 5pts)
+
+## Challenge
 
 ### `forEach(arr, callback)`
 
@@ -102,9 +104,10 @@ Takes an `Array` and callback of signature
 in the `Array`.
 
 HINT: To test `forEach`, you'll need to use:
-* `jest.fn()`. [Jest Mock Function](https://jestjs.io/docs/en/mock-functions#using-a-mock-function).
-* [toHaveBeenCalledTimes](https://jestjs.io/docs/en/expect.html#tohavebeencalledtimesnumber)
-* [toHaveBeenCalledWith](https://jestjs.io/docs/en/expect.html#tohavebeenlastcalledwitharg1-arg2-)
+
+-   `jest.fn()`. [Jest Mock Function](https://jestjs.io/docs/en/mock-functions#using-a-mock-function).
+-   [toHaveBeenCalledTimes](https://jestjs.io/docs/en/expect.html#tohavebeencalledtimesnumber)
+-   [toHaveBeenCalledWith](https://jestjs.io/docs/en/expect.html#tohavebeenlastcalledwitharg1-arg2-)
 
 Any holes in the `Array` should be skipped (don't call the callback function).
 
