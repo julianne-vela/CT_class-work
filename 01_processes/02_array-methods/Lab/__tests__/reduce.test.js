@@ -7,4 +7,12 @@ describe('reduce function', () => {
 
         expect(reduce(array, callback)).toEqual(33);
     });
+
+    it('should return the final accumulator total of all callbacks beginning with the initialValue declared', () => {
+        const array = [1, 2, 3, 4, 5];
+        const callback = (acc, n) => acc + n;
+        const initialValue = 25;
+
+        expect(reduce(array, callback, initialValue)).toEqual(40);
+    });
 });
